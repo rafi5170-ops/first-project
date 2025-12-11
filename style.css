@@ -1,0 +1,542 @@
+
+.navbar1{
+    display: flex;
+    background-color: #6176F7;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.edex{
+    margin-right: 222px;
+    margin-left: 300px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 48px;
+    color: white;
+    display: flex;
+}
+.nav-option{
+    display: flex;
+    width: 479px;
+    margin-right: 222px;
+}
+.nav-option li{
+    list-style: none;
+    width: 93px;
+}
+.nav-option li a{
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    display: flex;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.nav-option li a:hover{
+    color: #FFC27A;
+}
+.loginB{
+    margin-right: 300px;
+    display: flex;
+}
+.login{
+    list-style: none;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.Signup{
+    margin-left: 24px;
+    height: 48px;
+    width: 167px;
+    border-radius: 48px;
+    border: none;
+    background: linear-gradient(to bottom, #FFC27A, #FFA337);
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+
+}
+.lock1{
+    height: 36px;
+    display: flex;
+    padding-top: 12px;
+    margin-right: 8px;
+}
+.banner{
+    background-color: #6176F7;
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.banner h1{
+    margin: 0px;
+    
+}
+.bannerin{
+    margin-left: 280px;
+    padding-top: 150px;
+    
+}
+.success{
+    color: #FFC27A;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+.access{
+    color: white;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 56px;
+    padding-bottom: 12px;
+}
+.from{
+    color: white;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 56px;
+    padding-bottom: 12px;
+}
+.Institutions{
+    color: white;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 56px;
+    padding-bottom: 12px;
+}
+.vari{
+    color: white;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background: white;
+  padding: 5px;
+  border-radius: 72px;   
+  width: 648px;
+  height: 72px;
+  border: 1px solid #ccc;
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.search-btn1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; 
+  border: none;
+  background: linear-gradient(to bottom, #FFC27A, #FFA337);
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+.search-btn1 img{
+    height: 24px;
+    width: 24px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.search-btn1:hover {
+  background: #6176F7;
+}
+.banner-vector{
+    display: flex;
+    margin-bottom: 248px;
+    margin-right: 205px;
+    margin-top: 6px;
+    
+}
+.fw-bold{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+}
+.text-muted{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.banner .container{
+    display: flex;
+    justify-content: center;
+}
+.popular{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 56px;
+}
+.popular1{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
+}
+.custom-control {
+    width: auto;
+    height: auto;
+    opacity: 1 !important;
+}
+
+.control-circle {
+    width: 45px;
+    height: 45px;
+    background: grey;         
+    border-radius: 50%;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;                
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.control-circle:hover {
+    background: #FFA337;         
+    transform: scale(1.1);       
+}
+.carousel-control-prev{
+    left: -140px !important;
+}
+.carousel-control-next{
+    right: -140px !important;
+}
+#cardCarousel {
+    position: relative;
+    padding-bottom: 60px; 
+}
+#cardCarousel .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #C4C4C4 !important;
+    opacity: 1 !important;
+}
+
+#cardCarousel .carousel-indicators .active {
+    background-color: #FFA337 !important;
+}
+#goto:hover {
+    background-color: #FFA337;
+    border-radius: 50%;
+    
+}
+.btn.d-flex:hover i {
+    color: white !important;
+}
+.category{
+    margin-top: 150px;
+    padding-top: 0px;
+}
+.py-1{
+    margin-top: 100px;
+    padding-top: 0px;
+}
+.btn{
+    width: auto;
+}
+
+#my-button{
+    padding: 12px;
+}
+button.my-btn {
+    background-color: #c2c2c3 !important;
+    width: 100%;
+    max-width: 312px;
+    height: 76px;
+    border-radius: 20px;
+    border: none;
+    transition: .3s;
+}
+button.my-btn:hover{
+    transform: scale(1.1); 
+    border: 2px solid #FFA337;
+}
+button.my-btn:hover .btn-left {
+    color: black !important;
+}
+button.my-btn:hover .button-circle{
+    background-color: #FFA337;
+    border-radius: 50%;
+    transition: .3s;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote-icon {
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    font-size: 50px;      
+    color: #FF9F43;       
+    opacity: 0.9;         
+}
+#comments-card{
+    background-color: #cccccc;
+}
+.banner1{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 185px;
+}
+.banner1 h1{
+    margin: 0px;
+    
+}
+.bannerin1{
+    margin-left: 85px;
+    padding-top: 152px;
+    
+}
+.success1{
+    color: #000000;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.access1{
+    color: #9b9b9b;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+.vari1{
+    color: #000000;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+.search-box1 {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 5px;
+  border-radius: 72px;   
+  width: 648px;
+  height: 72px;
+}
+
+.search-btn11 {
+  width: 169px;
+  height: 48px;
+  border-radius: 24px; 
+  border: none;
+  background: linear-gradient(to bottom, #FFC27A, #FFA337);
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+.search-btn11 img{
+    height: 24px;
+    width: 24px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.search-btn11:hover {
+  background: #6176F7;
+}
+.banner-vector1{
+    display: flex;
+    margin-right: px;
+    margin-top: 6px;
+    
+}
+.banner1 .container{
+    display: flex;
+    
+}
+
+
+.footer-section {
+    background-color: #1F1F2E;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-top: 95px;
+}
+
+.footer-logo {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 48px;
+    color: white;
+}
+
+.footer-logo span {
+    color: #FFA337;   /* orange e */
+}
+
+.footer-title {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Public Sans", sans-serif;
+}
+
+.footer-text {
+    color: #bfc3ce;
+    font-size: 15px;
+    font-family: "Public Sans", sans-serif;
+    margin-bottom: 6px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    color: #bfc3ce;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-family: "Public Sans", sans-serif;
+}
+.footer-button{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-button:hover{
+    color: #FF9F43;
+    transition: .3s;
+}
+.footer-social {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #3f4a98;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.footer-social:hover {
+    transform: scale(1.1);
+}
+
+.footer-input {
+    width: 100%;
+    height: 45px;
+    border-radius: 6px;
+    background: #d3d4d5;
+    border: none;
+    padding-left: 15px;
+    font-size: 14px;
+    outline: none;
+}
+
+.footer-btn {
+    background: linear-gradient(#FFC27A, #FFA337);
+    border: none;
+    padding: 12px 32px;
+    border-radius: 25px;
+    color: white;
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-btn:hover {
+    background: #6176F7;
+}
+#cardCarousel1 {
+    position: relative;
+    padding-bottom: 60px; 
+}
+#cardCarousel1 .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #C4C4C4 !important;
+    opacity: 1 !important;
+}
+
+#cardCarousel1 .carousel-indicators .active {
+    background-color: #FFA337 !important;
+}
+#cardCarousel2 {
+    position: relative;
+    padding-bottom: 60px; 
+}
+#cardCarousel2 .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #C4C4C4 !important;
+    opacity: 1 !important;
+}
+
+#cardCarousel2 .carousel-indicators .active {
+    background-color: #FFA337 !important;
+}
